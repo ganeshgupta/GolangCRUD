@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strconv"
 
-	_ "github.com/lib/pq"
+	_ "github.com/lib/pq" //Driver
 )
 
 var db *sql.DB
